@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+ https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+<modelVersion>4.0.0</modelVersion>
+
+<parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.5.11</version>
+    <relativePath/>
+</parent>
+
+<groupId>com.spring.apacheCamel</groupId>
+<artifactId>EnterpriseIntegration14Patterns</artifactId>
+<version>0.0.1-SNAPSHOT</version>
+<name>EnterpriseIntegration14Patterns</name>
+<description>Apache Camel 14 Enterprise Integration Patterns Demo</description>
+
+<properties>
+    <java.version>17</java.version>
+    <camel.version>4.18.0</camel.version>
+</properties>
+
+<!-- Camel BOM prevents version conflicts -->
+<dependencyManagement>
+    <dependencies>
+
+        <dependency>
+            <groupId>org.apache.camel.springboot</groupId>
+            <artifactId>camel-spring-boot-bom</artifactId>
+            <version>${camel.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
+
+    </dependencies>
+</dependencyManagement>
+
+<dependencies>
+
+    <!-- Spring Boot Web -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+
+
+    <!-- Apache Camel Spring Boot -->
+    <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-spring-boot-starter</artifactId>
+    </dependency>
+
+
+    <!-- Camel JMS -->
+    <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-jms-starter</artifactId>
+    </dependency>
+
+
+    <!-- Camel Jackson (for Marshal / Unmarshal JSON) -->
+    <dependency>
+        <groupId>org.apache.camel.springboot</groupId>
+        <artifactId>camel-jackson-starter</artifactId>
+    </dependency>
+
+
+    <!-- ActiveMQ Artemis Server -->
+    <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>artemis-jakarta-server</artifactId>
+        <version>2.33.0</version>
+    </dependency>
+
+
+    <!-- ActiveMQ Artemis Client -->
+    <dependency>
+        <groupId>org.apache.activemq</groupId>
+        <artifactId>artemis-jakarta-client</artifactId>
+        <version>2.33.0</version>
+    </dependency>
+
+
+    <!-- Testing -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+</dependencies>
+
+
+<build>
+    <plugins>
+
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+
+    </plugins>
+</build>
+
+</project>
