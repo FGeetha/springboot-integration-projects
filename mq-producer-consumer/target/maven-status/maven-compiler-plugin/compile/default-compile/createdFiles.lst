@@ -1,0 +1,5 @@
+com\mq\consumer\MQConsumer.class
+com\mq\consumer\MQProducer.class
+com\mq\consumer\MQProducer2.class
+com\mq\consumer2\MQConsumer2.class
+com\mq\consumer2\MQProducer2.class
