@@ -1,0 +1,6 @@
+META-INF\MANIFEST.MF
+META-INF\maven\com.example.springboot\restAPI\pom.xml
+com\example\springboot\restAPI\RestApiApplication.class
+META-INF\maven\com.example.springboot\restAPI\pom.properties
+com\example\springboot\restAPI\controller\StudentController.class
+com\example\springboot\restAPI\model\Student.class
