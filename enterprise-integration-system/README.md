@@ -97,6 +97,7 @@ Validator      Content Router      Translator
                      ▼
             Business Response
 ```
+
 ## 🔄 Request Processing Flow
 
 The following sequence describes how a request is processed throughout the application.
