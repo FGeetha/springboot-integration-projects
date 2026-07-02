@@ -93,7 +93,7 @@ springboot-rest-api
 │
 ├── src
 │   ├── controller
-│   ├── model
+│   └── model
 │── resources
 |   └──application.properties
 │
