@@ -93,7 +93,7 @@ REST Response
 ## 📂 Project Structure
 
 ```
-enterprise-rest-api
+iris-api-client
 │
 ├── src
 │   ├── config
