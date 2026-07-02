@@ -66,33 +66,6 @@ The project demonstrates multiple Enterprise Integration Patterns (EIP) provided
 | Claim Check | Temporarily stores large message payloads |
 | Throttler | Controls request processing rate |
 
-## Architecture
-
-                 REST Client
-                      │
-                      ▼
-           Spring Boot REST API
-                      │
-                      ▼
-             Apache Camel Route
-                      │
-     ┌───────────-----─────┼────────────-------────┐
-     ▼                     ▼                       ▼
- Validator            Content Router          Translator
-     └──────────-----──────┼──────────────-------──┘
-                           |
-                           ▼
-                     ActiveMQ Queue
-                           |
-                           ▼
-                     Consumer Route
-                           |
-                           ▼
-                   Business Processing
-                           | 
-                           ▼
-                      REST Response
-
 ## Output Screenshots
 
 <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/fc67054d-3fff-4730-ba28-1592e37f8fea" />
