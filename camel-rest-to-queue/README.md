@@ -1,6 +1,13 @@
 
 # 🚀 REST to Queue Integration using Apache Camel & ActiveMQ
 
+![Java](https://img.shields.io/badge/Java-Backend-orange?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-6DB33F?logo=springboot)
+![Apache Camel](https://img.shields.io/badge/Apache%20Camel-EIP-D22128)
+![ActiveMQ](https://img.shields.io/badge/ActiveMQ-Messaging-005571)
+![REST API](https://img.shields.io/badge/REST-API-009688)
+![Maven](https://img.shields.io/badge/Maven-Build-C71A36?logo=apachemaven)
+
 A Spring Boot application demonstrating enterprise-grade REST-to-Queue communication using Apache Camel and ActiveMQ.
 
 This project showcases how synchronous REST requests can be transformed into asynchronous message processing using message queues, enabling loose coupling, scalability, and reliable communication between distributed systems.
