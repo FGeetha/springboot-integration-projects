@@ -149,7 +149,7 @@ The project follows a modular architecture where each package has a dedicated re
 | Method | Endpoint | Description |
 |---------|----------|-------------|
 | POST | /orders | Submit a new order for processing |
-| GET | /orders/{id} | Retrieve order details |
+| POST | /xml | Submit a xml formatted order for processing |
 
 ## ⚙ Enterprise Concepts Demonstrated
 
