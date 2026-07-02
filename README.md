@@ -1,7 +1,7 @@
 
 # 🚀 Enterprise Integration Projects using Spring Boot, Apache Camel & ActiveMQ
 
-![Java](https://img.shields.io/badge/Java-17-orange?logo=openjdk)
+![Java](https://img.shields.io/badge/Java-Backend-orange?logo=java)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-6DB33F?logo=springboot)
 ![Apache Camel](https://img.shields.io/badge/Apache%20Camel-Integration-D22128)
 ![ActiveMQ](https://img.shields.io/badge/ActiveMQ-Messaging-blue)
