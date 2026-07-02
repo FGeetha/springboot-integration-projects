@@ -39,7 +39,7 @@ The projects focus on writing clean, modular, and maintainable code while implem
 
 | Category | Technology |
 |----------|------------|
-| Language | Java 17 |
+| Language | Java  |
 | Framework | Spring Boot |
 | Integration | Apache Camel |
 | Messaging | ActiveMQ |
