@@ -138,3 +138,10 @@ This project provided practical experience in:
 - Kubernetes Deployment
 - JWT Authentication
 
+## 👨‍💻 Author
+
+**Geetha Flarance**
+
+Software Engineer | Java Backend & Integration Developer
+
+If you found this project helpful, feel free to connect with me on LinkedIn or explore my other Java backend projects available in this repository.
