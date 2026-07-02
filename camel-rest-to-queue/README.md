@@ -36,7 +36,7 @@ The approach improves scalability, fault tolerance, and reliability while ensuri
 | API Testing | Postman |
 | Data Format | JSON |
 
-## Architecture
+## 🏗 Project Architecture
 
 ```
 REST Client
