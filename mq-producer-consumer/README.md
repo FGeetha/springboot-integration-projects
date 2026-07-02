@@ -1,5 +1,120 @@
-<img width="1737" height="934" alt="Screenshot 2026-02-16 143208" src="https://github.com/user-attachments/assets/13c4f65e-3233-4ffb-aab2-3358f746cdc3" />
+# 🚀 ActiveMQ Producer Consumer using Spring Boot
 
+![Java](https://img.shields.io/badge/Java-Backend-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-brightgreen)
+![ActiveMQ](https://img.shields.io/badge/ActiveMQ-Messaging-blue)
+![Producer Consumer](https://img.shields.io/badge/Pattern-Producer%20Consumer-success)
+![Maven](https://img.shields.io/badge/Maven-Build-red)
+
+## 📖 Overview
+
+This project demonstrates asynchronous communication between distributed applications using the Producer-Consumer messaging pattern with Spring Boot and ActiveMQ.
+
+The application simulates how enterprise systems publish messages to a queue while independent consumers process them asynchronously.
+
+This architecture enables loose coupling, improved scalability, fault tolerance, and reliable message delivery, making it a common approach in enterprise banking, financial services, logistics, and e-commerce applications.
+
+## 🎯 Problem Statement
+
+In enterprise applications, directly invoking backend services can introduce latency and tightly couple multiple systems together.
+
+To improve scalability and reliability, enterprise systems commonly adopt asynchronous messaging.
+
+This project demonstrates how producers publish messages into an ActiveMQ queue while consumers independently process them without blocking the originating application.
+
+## 🛠 Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Language | Java |
+| Framework | Spring Boot |
+| Messaging Broker | ActiveMQ |
+| Build Tool | Maven |
+| API Testing | Postman |
+| Data Format | JSON |
+
+## 🏗 Project Architecture
+```
+REST Client
+     │
+     ▼
+Producer API
+     │
+     ▼
+ActiveMQ Queue
+     │
+     ▼
+Consumer
+     │
+     ▼
+Business Processing
+     │
+     ▼
+Application Logs
+```
+
+## 🔄 Processing Flow
+
+1. Client sends a request to the Producer API.
+2. Producer converts the request into a message.
+3. Message is published to the ActiveMQ Queue.
+4. Queue stores the message until a consumer is available.
+5. Consumer retrieves the message asynchronously.
+6. Business logic processes the message.
+7. Processing details are logged.
+
+## ✨ Features
+
+- Spring Boot REST API
+- ActiveMQ Integration
+- Producer Consumer Pattern
+- Asynchronous Messaging
+- Queue-based Communication
+- Loose Coupling
+- Reliable Message Delivery
+- Message Logging
+
+## 💼 Enterprise Concepts Demonstrated
+
+- Message Queues
+- Asynchronous Communication
+- Producer Consumer Pattern
+- Enterprise Messaging
+- Distributed Systems
+- Loose Coupling
+- Reliable Processing
+- Event Driven Architecture
+
+## 📂 Project Structure
+
+```
+mq-producer-consumer
+│
+├── src
+│   ├── consumer
+|   |   ├── MQConsumer
+|   |   ├── MQProducer
+|   |   └── MQProducer2
+│   └──consumer2
+|      ├── MQConsumer2
+|      └── MQProducer2  
+│── resources
+|   └──application.properties
+│
+├── pom.xml
+└── README.md
+```
+
+## 📡 REST Endpoint
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | `/send` | Publishes a message to ActiveMQ |
+
+## 📸 Application Demonstration
+
+# ActiveMQ and Application Console
+<img width="1737" height="934" alt="Screenshot 2026-02-16 143208" src="https://github.com/user-attachments/assets/13c4f65e-3233-4ffb-aab2-3358f746cdc3" />
 
 <img width="1729" height="922" alt="Screenshot 2026-02-16 131430" src="https://github.com/user-attachments/assets/974bc01b-c491-4965-a73b-ef9d72f8fa4b" />
 
@@ -18,3 +133,34 @@
 <img width="1919" height="1011" alt="Screenshot 2026-02-23 114112" src="https://github.com/user-attachments/assets/616520a1-d818-4487-ab68-6d71f4490b63" />
 
 <img width="1919" height="1005" alt="Screenshot 2026-02-23 120932" src="https://github.com/user-attachments/assets/c324eb50-da80-4b45-b491-b0b7a2b47462" />
+
+## 🎯 Learning Outcomes
+
+Through this project I gained practical experience in:
+
+- Designing asynchronous messaging systems
+- Implementing the Producer Consumer pattern
+- Integrating Spring Boot with ActiveMQ
+- Building loosely coupled enterprise applications
+- Understanding queue-based communication
+- Processing messages asynchronously
+
+## 🚀 Future Enhancements
+
+- Dead Letter Queue
+- Retry Policies
+- Message Persistence
+- Kafka Integration
+- RabbitMQ Integration
+- Docker Support
+- Kubernetes Deployment
+- Unit Testing
+
+## 👨‍💻 Author
+
+**Geetha Flarance**
+
+Software Engineer | Java Backend & Integration Developer
+
+If you found this project helpful, feel free to connect with me on LinkedIn or explore my other Java backend projects available in this repository.
+
