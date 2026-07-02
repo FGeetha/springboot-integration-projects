@@ -148,8 +148,8 @@ The project follows a modular architecture where each package has a dedicated re
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| POST | /orders | Submit a new order for processing |
-| POST | /xml | Submit a xml formatted order for processing |
+| POST | /orders | Processes JSON order requests |
+| POST | /xml | Processes XML order requests |
 
 ## ⚙ Enterprise Concepts Demonstrated
 
