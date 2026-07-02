@@ -46,7 +46,6 @@ The objective was to simulate real-world enterprise integration scenarios common
 - Message Enrichment
 - Exception Handling
 - Modular Project Structure
-Enterprise Integration Patterns
 
 ## 🏛 Enterprise Integration Patterns Implemented
 
@@ -124,8 +123,9 @@ enterprise-integration-system
 │   ├── controller
 │   ├── model
 │   ├── processor
-│   ├── routes
-│   └── resources
+│   └── routes
+│── resources
+|   └──application.properties
 │
 ├── pom.xml
 └── README.md
