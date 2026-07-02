@@ -34,7 +34,7 @@ This project demonstrates how Spring Boot applications consume external REST API
 | Data Format | JSON |
 | API Testing | Postman |
 
-## Project Architecture
+## 🏗 Project Architecture
 ```
 REST Client
      │
