@@ -1,12 +1,12 @@
 
 # 🚀 Enterprise Integration System
 
-![Java](https://img.shields.io/badge/Java-17-orange)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen)
-![Apache Camel](https://img.shields.io/badge/Apache%20Camel-Integration-red)
-![ActiveMQ](https://img.shields.io/badge/ActiveMQ-Messaging-blue)
-![REST API](https://img.shields.io/badge/REST-API-success)
-![Maven](https://img.shields.io/badge/Maven-Build-red)
+![Java](https://img.shields.io/badge/Java-Backend-orange?logo=java)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-Framework-6DB33F?logo=springboot)
+![Apache Camel](https://img.shields.io/badge/Apache%20Camel-EIP-D22128)
+![ActiveMQ](https://img.shields.io/badge/ActiveMQ-Messaging-005571)
+![REST API](https://img.shields.io/badge/REST-API-009688)
+![Maven](https://img.shields.io/badge/Maven-Build-C71A36?logo=apachemaven)
 
 An enterprise-grade backend integration project built using **Java, Spring Boot, Apache Camel, and ActiveMQ** demonstrating how distributed enterprise applications communicate through REST APIs, asynchronous messaging, and Enterprise Integration Patterns (EIP).
 
