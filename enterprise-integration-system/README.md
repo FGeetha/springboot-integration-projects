@@ -76,18 +76,22 @@ The project demonstrates multiple Enterprise Integration Patterns (EIP) provided
                       ▼
              Apache Camel Route
                       │
-     ┌────────────────┼────────────────┐
-     ▼                ▼                ▼
- Validator     Content Router     Translator
-     └────────────────┼────────────────┘
-                      ▼
-              ActiveMQ Queue
-                      ▼
-                 Consumer Route
-                      ▼
-              Business Processing
-                      ▼
-                 REST Response
+     ┌───────────-----─────┼────────────-------────┐
+     ▼                     ▼                       ▼
+ Validator            Content Router          Translator
+     └──────────-----──────┼──────────────-------──┘
+                           |
+                           ▼
+                     ActiveMQ Queue
+                           |
+                           ▼
+                     Consumer Route
+                           |
+                           ▼
+                   Business Processing
+                           | 
+                           ▼
+                      REST Response
 
 ## Output Screenshots
 
