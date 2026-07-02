@@ -93,7 +93,7 @@ REST Response
 ## 📂 Project Structure
 
 ```
-enterprise-integration-system
+enterprise-rest-api
 │
 ├── src
 │   ├── config
